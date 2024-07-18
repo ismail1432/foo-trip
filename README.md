@@ -9,8 +9,11 @@ honeymoon with their images and descriptions. Each destination should have a lin
 - Allow users to click on a destination to view the full details of that destination.
 - Implement a basic authentication system for administrators.
 - Add a backoffice where administrators can create, update and delete destinations.
-- Expose a REST API for Destination, the API should no security token is needed
-- Create a Symfony command that GET all destinations via the API and export them into a CSV like the example below 
+- Add validation rule on the destination creation
+- Expose a REST API for Destination, the API should be public that means no security token is needed
+- We can filter the API per destination and name
+- Create a Symfony command that GET all destinations via the API and export them into a CSV like the example below
+- Add tests and tooling
 
 | name  | description                        | price | duration |
 |-------|------------------------------------|-------|----------|
