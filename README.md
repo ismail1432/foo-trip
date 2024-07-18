@@ -2,7 +2,7 @@
 
 ### Required features:
 -  Create a “Destination” entity with the following fields: name,
-description, price, duration of the trip, image of the destination.
+description, price, duration of the trip, image of the destination. These fields should not be nullable
 - Set up a database to store destinations
 - Create a home page that displays the list of destination destinations
 honeymoon with their images and descriptions. Each destination should have a link so the user can click and access to the details of the destination
